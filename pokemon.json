@@ -1,0 +1,36 @@
+{
+  "pokemon": [
+    {
+      "id": 1,
+      "nome": "Bulbasaur",
+      "immagine": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+      "descrizione": "Bulbasaur è un Pokémon appartenente alla prima generazione. Ideato da Atsuko Nishida e fissato nel suo aspetto finale da Ken Sugimori, Bulbasaur fa la sua prima apparizione nel 1996 nei videogiochi Pokémon Rosso e Blu come uno dei Pokémon iniziali che i giocatori possono scegliere per cominciare la loro avventura.",
+      "tipo": "Erba",
+      "mosse": "Azione Ruggito Foglielama"
+    },
+    {
+      "id": 4,
+      "nome": "Charmander",
+      "immagine": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+      "descrizione": "Charmander è un Pokémon appartenente alla prima generazione. Ideato da Atsuko Nishida e fissato nel suo aspetto finale da Ken Sugimori, Charmander fa la sua prima apparizione nel 1996 nei videogiochi Pokémon Rosso e Blu come uno dei Pokémon iniziali che i giocatori possono scegliere per cominciare la loro avventura.",
+      "tipo": "Fuoco",
+      "mosse": "Graffio Braciere Fulmisguardo"
+    },
+    {
+      "id": 7,
+      "nome": "Squirtle",
+      "immagine": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+      "descrizione": "Squirtle è un Pokémon appartenente alla prima generazione. Ideato da Atsuko Nishida e fissato nel suo aspetto finale da Ken Sugimori, Squirtle fa la sua prima apparizione nel 1996 nei videogiochi Pokémon Rosso e Blu come uno dei Pokémon iniziali che i giocatori possono scegliere per cominciare la loro avventura.",
+      "tipo": "Acqua",
+      "mosse": "Graffio Bolla Pistolacqua"
+    },
+    {
+      "nome": "h",
+      "descrizione": "h",
+      "tipo": "h",
+      "mosse": "h",
+      "immagine": "http",
+      "id": 9
+    }
+  ]
+}
