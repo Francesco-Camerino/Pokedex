@@ -1,8 +1,8 @@
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
-import Dettaglio from "../pages/dettaglio";
-import Elenco from "../pages/elenco";
-import { IPokemon } from "../types/pokemon";
+import Dettaglio from "../../pages/dettaglio";
+import Elenco from "../../pages/elenco";
+import { IPokemon } from "../../types/pokemon";
 
 export type StackParamList = {
     Elenco: undefined;

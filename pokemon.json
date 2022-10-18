@@ -25,12 +25,12 @@
       "mosse": "Graffio Bolla Pistolacqua"
     },
     {
-      "nome": "h",
-      "descrizione": "h",
-      "tipo": "h",
-      "mosse": "h",
-      "immagine": "http",
-      "id": 9
+      "nome": "Umbreon",
+      "descrizione": "Umbreon è un Pokémon di tipo Buio introdotto in seconda generazione.\n\nSi evolve da Eevee quando ha un alto affetto e aumenta di livello durante la notte o quando ha un alto affetto e aumenta di livello durante la notte con un Coccio Lunare nella borsaXD. È una delle evoluzioni finali di Eevee, le altre sono Vaporeon, Jolteon, Flareon, Espeon, Leafeon, Glaceon e Sylveon.\n\nÈ il Pokémon iniziale di Pokémon Colosseum insieme ad Espeon.",
+      "tipo": "Buio",
+      "mosse": "Sincronismo",
+      "immagine": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/197.png",
+      "id": 8
     }
   ]
 }

@@ -1,7 +1,7 @@
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import React, {useEffect, useState} from 'react';
 import {Button, FlatList, Image, Text, TouchableOpacity, View} from 'react-native';
-import {StackParamList} from '../../../App';
+import { StackParamList } from '../../components/elencoTab/elencoTab';
 import { IPokemon } from '../../types/pokemon';
 import styles from './styles';
 

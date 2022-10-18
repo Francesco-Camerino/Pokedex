@@ -8,7 +8,7 @@ import Elenco from './src/pages/elenco';
 import Home from './src/pages/home';
 import Form from './src/pages/form';
 import { IPokemon } from './src/types/pokemon';
-import ElencoTab from './src/components/elencoTab';
+import ElencoTab from './src/components/elencoTab/elencoTab';
 
 export type TabParamList = {
   Home: undefined;
@@ -39,14 +39,14 @@ const App = () => {
           name="Form"
           component={Form}
           options={{
-            tabBarIcon: () => <Text>🔨</Text>,
+            tabBarIcon: () => <Text>📜</Text>,
           }}
         />
         <Tab.Screen
           name="ElencoTab"
           component={ElencoTab}
           options={{
-            tabBarIcon: () => <Text>🧰</Text>,
+            tabBarIcon: () => <Text>📇</Text>,
             headerShown: false,
           }}
         />

@@ -29,6 +29,11 @@ function Form() {
       }).then(async response => {
         const pokemonInserito: IPokemon = await response.json();
         console.log('pokemon inserito', pokemonInserito);
+        setNome('');
+        setDescrizione('');
+        setTipo('');
+        setMosse('');
+        setImmagine('');
         /// ... cambiare pagina
         // .. svuotare il form
       });
@@ -36,13 +41,13 @@ function Form() {
   };
 
   useEffect(() => {
-    (nome && descrizione && tipo && mosse && immagine.startsWith('http')) && setFormValid(!formValid)
+    (nome && descrizione && tipo && mosse && immagine.startsWith('http')) && setFormValid(!formValid);
   }, [nome, descrizione, tipo, mosse, immagine]);
 
   return (
     <View>
       <TextInput style={styles.input} placeholder="Nome" value={nome} onChangeText={setNome} />
-      <TextInput style={styles.input} placeholder="Descrizione" value={descrizione} onChangeText={setDescrizione} />
+      <TextInput multiline={true} style={styles.input} placeholder="Descrizione" value={descrizione} onChangeText={setDescrizione} />
       <TextInput style={styles.input} placeholder="Tipo" value={tipo} onChangeText={setTipo} />
       <TextInput style={styles.input}
         placeholder="Mosse"
